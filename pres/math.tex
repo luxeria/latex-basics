@@ -35,3 +35,59 @@
         \input{../math/math_eq.tex}
     \end{block}
 \end{frame}
+\begin{frame}[fragile]
+    \frametitle{Formeln}
+    \begin{block}{Paket}
+        \lstsettinglatex
+        \begin{lstlisting}
+\usepackage{amsmath}
+        \end{lstlisting}
+    \end{block}
+    \pause
+    \begin{block}{Mathematische Symbole}
+        \begin{tabular}{c@{\,}c@{\,}l @{$\quad$} 
+                        c@{\,}c@{\,}l @{$\quad$} 
+                        c@{\,}c@{\,}l @{$\quad$} 
+                        c@{\,}c@{\,}l}
+            $\pm$       & $\to$ & \verb!\pm!    & $\circ$   & $\to$ & \verb!\circ!  &
+            $\omega$    & $\to$ & \verb!\omega! & $\Omega$  & $\to$ & \verb!\Omega! \\\\
+            \pause
+            $\cdot$     & $\to$ & \verb!\cdot!  & $\neq$    & $\to$ & \verb!\neq!   &
+            $\leq$      & $\to$ & \verb!\leq!   & $\geq$    & $\to$ & \verb!\geq!   \\\\
+            \pause
+            $\forall$   & $\to$ & \verb!\forall!& $\to$     & $\to$ & \verb!\to!    &
+            $\sin$      & $\to$ & \verb!\sin!   & $\log$    & $\to$ & \verb!\log!   \\\\
+            \pause
+            $\infty$    & $\to$ & \verb!\infty! & $\in$     & $\to$ & \verb!\in!    &
+            $\equiv$    & $\to$ & \verb!\equiv! & $\approx$ & $\to$ & \verb!\approx!\\\\
+        \end{tabular}
+    \end{block}
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{Formeln}
+    \begin{block}{Mathematische Konstrukte}
+        \begin{tabular}{c@{}c@{}l @{$\quad$} 
+                        c@{}c@{}l}
+            $a_n$                       & $\to$ & \verb!a_n!                        &
+            $a^n$                       & $\to$ & \verb!a^n!                        \\\\
+            \pause
+            $a_{n_m}$                   & $\to$ & \verb!a_{n_m}!                    &
+            $a^{n^m}$                   & $\to$ & \verb!a^{n^m}!                    \\\\
+            \pause
+            $\sqrt{x}$                  & $\to$ & \verb!\sqrt{x}!                   &
+            $\sqrt[3]{x}$               & $\to$ & \verb!\sqrt[3]{x}!                \\\\
+            \pause
+            $\frac{a}{b}$               & $\to$ & \verb!\frac{a}{b}!                &
+            \pause
+            $\lim\limits_{n\to\infty}$  & $\to$ & \verb!\lim\limits_{n\to\infty}!   \\\\
+            \pause
+            $\int$                      & $\to$ & \verb!\int!                       &
+            \pause
+            $\int\limits_{0}^{5}$       & $\to$ & \verb!\int\limits_{0}^{5}!        \\\\
+            \pause
+            $\iint$                     & $\to$ & \verb!\iint!                      &
+            \pause
+            $\sum\limits_{n=0}^{5}$     & $\to$ & \verb!\sum\limits_{n=0}^{5}!      \\\\
+        \end{tabular}
+    \end{block}
+\end{frame}
