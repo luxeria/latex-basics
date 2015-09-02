@@ -2,6 +2,11 @@
 Basics for starting with LaTeX
 
 ## Structure: 
+
+### Presentation
+* [Presentation](pres/)
+
+### Examples
 * [First document](first/)
 * [Sections](section/)
 * [German Language](german/)
@@ -13,6 +18,6 @@ Basics for starting with LaTeX
 * [References](reference/)
 * [Table of contents - Lists of figures and tables](index)
 
-* [Presentation](pres/)
+### Additional files for presentation
 * [Figures for presentation](fig/)
 * [Packages](layout/)
