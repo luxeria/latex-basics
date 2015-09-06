@@ -2,10 +2,17 @@
 
 all: build clean
 
+handout: build_handout clean
+
 build:
 	pdflatex pres.tex
 	pdflatex pres.tex
 	pdflatex pres.tex
+
+build_handout:
+	pdflatex pres_handout.tex
+	pdflatex pres_handout.tex
+	pdflatex pres_handout.tex
 
 clean:
 	rm -f *.acn
