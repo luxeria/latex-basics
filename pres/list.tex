@@ -1,14 +1,36 @@
 \begin{frame}
     \frametitle{Auflistungen}
     \begin{block}{Einfache Auflistung}
-        \lstsettinglatex
-        \lstinputlisting[linerange={5-8}]{../list/list.tex}
+        \begin{columns}
+            \begin{column}{0.4\textwidth}
+                \lstsettinglatex
+                \lstinputlisting[linerange={5-8}]{../list/list.tex}
+            \end{column}
+            \pause
+            \begin{column}{0.4\textwidth}
+                \begin{itemize}
+                    \item Eins
+                    \item Zwei
+                \end{itemize}
+            \end{column}
+        \end{columns}
     \end{block}
 \end{frame}
 \begin{frame}
     \frametitle{Auflistungen}
     \begin{block}{Nummerierte Auflistung}
-        \lstsettinglatex
-        \lstinputlisting[linerange={10-13}]{../list/list.tex}
+        \begin{columns}
+            \begin{column}{0.4\textwidth}
+                \lstsettinglatex
+                \lstinputlisting[linerange={10-13}]{../list/list.tex}
+            \end{column}
+            \pause
+            \begin{column}{0.4\textwidth}
+                \begin{enumerate}
+                    \item Eins
+                    \item Zwei
+                \end{enumerate}
+            \end{column}
+        \end{columns}
     \end{block}
 \end{frame}
