@@ -9,4 +9,8 @@ build:
 
 clean:
 	rm -f *.aux
+	rm -f *.lof
 	rm -f *.log
+	rm -f *.lot
+	rm -f *.out
+	rm -f *.toc
